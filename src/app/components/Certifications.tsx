@@ -7,7 +7,13 @@ interface Certification {
   link: string;
 }
 
-const certifications: Certification[] = [
+const certifications: Certification[] = [ 
+  {
+    title: "Foundations: Data, Data, Everywhere",
+    issuer: "Google",
+    issued: "Feb 2026",
+    link: "https://www.coursera.org/account/accomplishments/verify/Q6FRG8WGGE79", 
+  },
   {
     title: "Data Analysis with Python",
     issuer: "Cognitive Class",
