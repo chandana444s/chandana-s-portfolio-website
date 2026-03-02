@@ -15,6 +15,17 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: 'Customer Churn & Revenue Risk Dashboard - Banking Sector',
+    descriptionPoints: [
+      'Analyzed 10,000+ banking customer records to identify churn drivers and quantify revenue exposure.',
+      'Built KPI-driven Power BI dashboard tracking churn rate, total revenue (764.99M), and revenue at risk (247.68M).',
+      'Identified high-risk customer segments by geography, age group, and product holding to support retention strategy.'
+    ],
+    image: '/images/Bankchurn.jpg', // Add your dashboard screenshot in public/images
+    tags: ['Power BI', 'DAX', 'Data Modeling', 'Churn Analysis'],
+    link: 'https://github.com/chandana444s/Bank-Customer-Churn-and-Revenue-Risk-Dashboard'
+  },
+  {
     title: 'Pizza Sales Analysis',
     descriptionPoints: [
       'Analyzed pizza sales data using SQL to calculate key KPIs and uncover daily and hourly order trends.',
