@@ -94,12 +94,12 @@ export function Certifications() {
           </p>
 
           <p className="text-slate-400 text-sm mb-4">
-            Completed an 8-course professional program covering data cleaning,
+            Completed an 9-course professional program covering data cleaning,
             analysis, visualization, SQL, R, and business problem solving.
           </p>
 
           <a
-            href="YOUR-COURSERA-CERTIFICATE-LINK"
+            href="https://coursera.org/share/8d743233b1e325a9a6b12dc4310727ff"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-5 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-white text-sm transition"
