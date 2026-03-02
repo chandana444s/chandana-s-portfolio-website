@@ -9,12 +9,6 @@ interface Certification {
 
 const certifications: Certification[] = [ 
   {
-    title: "Foundations: Data, Data, Everywhere",
-    issuer: "Google",
-    issued: "Feb 2026",
-    link: "https://www.coursera.org/account/accomplishments/verify/Q6FRG8WGGE79", 
-  },
-  {
     title: "Data Analysis with Python",
     issuer: "Cognitive Class",
     issued: "Jan 2026",
@@ -83,6 +77,36 @@ export function Certifications() {
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
           Certifications
         </h2>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="mb-12 border-2 border-blue-500 bg-gradient-to-r from-slate-900 to-slate-800 rounded-xl p-6 shadow-lg shadow-blue-500/20"
+        >
+          <h3 className="text-xl md:text-2xl font-bold text-blue-400 mb-2">
+            🎓 Google Data Analytics Professional Certificate
+          </h3>
+
+          <p className="text-slate-300 mb-3">
+            Issued by Google via Coursera • Feb 2026
+          </p>
+
+          <p className="text-slate-400 text-sm mb-4">
+            Completed an 8-course professional program covering data cleaning,
+            analysis, visualization, SQL, R, and business problem solving.
+          </p>
+
+          <a
+            href="YOUR-COURSERA-CERTIFICATE-LINK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-white text-sm transition"
+          >
+            View Professional Credential
+          </a>
+        </motion.div>
 
         <div className="space-y-5">
           {certifications.map((cert, index) => (
